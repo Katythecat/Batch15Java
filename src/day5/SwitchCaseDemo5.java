@@ -15,12 +15,12 @@ public class SwitchCaseDemo5 {
             case 'f':
             case 'F':
                 System.out.println("Female");
-                break;
+               break;
             case 'm':
             case 'M':
                 System.out.println("Male");
                 break;
-            default:
+           default:
                 System.out.println("Not specified");
         }
 
