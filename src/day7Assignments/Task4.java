@@ -1,4 +1,4 @@
-package Day7Assignments;
+package day7Assignments;
 
 public class Task4 {
     public static void main(String[] args) {

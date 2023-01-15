@@ -1,4 +1,4 @@
-package Day7;
+package day7;
 
 public class WhileRecap {
     public static void main(String[] args) {

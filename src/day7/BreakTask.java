@@ -1,4 +1,4 @@
-package Day7;
+package day7;
 
 public class BreakTask {
     public static void main(String[] args) {
