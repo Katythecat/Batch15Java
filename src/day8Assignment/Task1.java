@@ -7,7 +7,6 @@ public class Task1 {
             if(i%3==0){
                 continue;
             }
-
             System.out.print(i+" ");
         }
     }

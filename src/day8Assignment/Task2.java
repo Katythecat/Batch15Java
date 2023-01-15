@@ -8,29 +8,14 @@ public class Task2 {
          for a credit card 10 times. As soon you get an “yes” from
          a user program should stop asking.*/
 
-
-
-
-
-
-
-
-
-
-
-
-
         Scanner input = new Scanner(System.in);
-       // int count = 0;
+
 
         for (int i=1; i<=10; i++) {
-        //while (count <= 10) {
             System.out.println("Would you like to apply for a credit card? (yes/no)");
             String answer = input.next();
             if (answer.equalsIgnoreCase("yes")) {
                 break;
-            //} else {
-              //  count++;
             }
         }
     }
