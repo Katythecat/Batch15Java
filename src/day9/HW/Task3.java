@@ -12,6 +12,10 @@ public class Task3 {
         System.out.print(words[4]+" ");
         System.out.print(words[0]+" ");
         System.out.print(words[3]+" ");
-        System.out.print(words[2]);
+        System.out.println(words[2]);
+
+
+        System.out.println(words[1]+" "+words[4]+" "+words[0]+" "+words[3]+" "+words[2]);
     }
+
 }
