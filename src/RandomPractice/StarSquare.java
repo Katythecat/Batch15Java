@@ -8,7 +8,7 @@ public class StarSquare {
                     System.out.print("*");
                 }
             else {
-                for (int j = 0; j <= 4 ;j++) {
+                for (int j = 0; j <= 4; j++) {
                     if (j == 0 || j == 4) {
                         System.out.print("*");
                     } else {
@@ -21,5 +21,6 @@ public class StarSquare {
         }
     }
 }
+
 
 
