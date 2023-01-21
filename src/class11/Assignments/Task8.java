@@ -22,10 +22,11 @@ public class Task8 {
                 }
             System.out.println();
             }
-        int count1=0;
         System.out.println("Sum of countries is "+count);
         System.out.println();
         System.out.println("----------");
+
+        int count1=0;
         for(String[] x:countries){
             for(String country:x){
                 System.out.print(country+" ");

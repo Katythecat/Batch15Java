@@ -60,6 +60,7 @@ public class Task4HW8 {
             System.out.println("Hey here is your change "+change);
         }else if(amountPaid<totalPrice){
             System.out.println("You can't buy all the items");
+
         }
         System.out.println("Thank you for shopping!");
 

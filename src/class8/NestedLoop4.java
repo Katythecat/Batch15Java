@@ -1,20 +1,24 @@
 package class8;
 
-public class NestedLoop5 {
+public class NestedLoop4 {
     public static void main(String[] args) {
         for (int i = 0; i < 3; i++) {
-            if (i == 1) {
-                System.out.println();
-                continue;
-            }
+
             for (int j = 0; j < 5; j++) {
-                System.out.print("*");
+                if (j == 1 || j == 2) {
+                    System.out.print(" ");
+                } else {
+                    System.out.print("*");
+                }
             }
             System.out.println();
 
         }
     }
 }
+
+
+
 
 
 
