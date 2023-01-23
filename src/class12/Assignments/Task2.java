@@ -17,10 +17,13 @@ public class Task2 {
             System.out.print(word.charAt(i));
         }
 
+        System.out.println();
         /*for (int i = word.length()-1; i >=0 ; i--) {
             ampty=ampty+word.charAt(i);
         }
         System.out.println("The word after reverse is:"+ampty);*/
 
+        StringBuffer sb=new StringBuffer(word);
+        System.out.println(sb.reverse());
     }
 }
