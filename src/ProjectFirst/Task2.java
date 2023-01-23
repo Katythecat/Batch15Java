@@ -9,35 +9,30 @@ public class Task2 {
          (use 2 different loops).
          */
 
+
         Scanner scanner = new Scanner(System.in);
+        String[] countries = new String[5];
 
-        String[][] countries=new String[2][2];
-        System.out.println("Please enter 5 countries and its capital city");
+       for (int i = 0; i < countries.length; i++) {
 
-        for (int i = 0; i < countries.length; i++) {
-            for (int j = 0; j < countries[i].length; j++) {
-                countries[i][j] = scanner.nextLine();
-            }
-        }
-        for (int i = 0; i < countries.length; i++) {
-            for (int j = 0; j < countries[i].length; j++) {
-              System.out.print(countries[i][j] + " ");
-               // System.out.println("The capital city of "+countries[i][j]);
-                //System.out.println("The capital city of "+countries[0][0]+countries[0][0]);
-                //System.out.println("The capital city of "+countries[i].toString()+"is"+countries[j].toString());
-            }
-
-            System.out.println();
+            System.out.println("Please enter countries");
+            countries[i] = scanner.next();
+            System.out.println("Please enter its capital city");
+            String capitals = scanner.next();
+            System.out.println("The capital city of " + countries[i] + " is " + capitals);
         }
 
 
-            /*System.out.println("----------");
-            for(String[] x:countries){
-                for(String country:x){
-                    System.out.print(country+" ");
-                }
-                System.out.println();
-            }*/
+
+       /*int i=0;
+       while(i<countries.length){
+           System.out.println("Please enter countries");
+           countries[i] = scanner.next();
+           System.out.println("Please enter its capital city");
+           String capitals = scanner.next();
+           System.out.println("The capital city of " + countries[i] + " is " + capitals);
+           i++;
+       }*/
         }
     }
 

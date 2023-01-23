@@ -2,41 +2,41 @@ package class11.Assignments;
 
 public class PhoneTester {
     public static void main(String[] args) {
-        Phone phone1=new Phone();
-        phone1.name="iPhone";
-        phone1.version="iPhone 14 Pro Max";
-        phone1.color="Deep Purple";
-        phone1.system="Smart Phone";
-        phone1.price=1199;
-        phone1.weight="172 grams";
+        Phone iphone=new Phone();
+        iphone.name="iPhone";
+        iphone.version="iPhone 14 Pro Max";
+        iphone.color="Deep Purple";
+        iphone.system="Smart Phone";
+        iphone.price=1199;
+        iphone.weight="172 grams";
 
-        phone1.camera();
-        phone1.alarm();
-        phone1.internet();
+        iphone.camera();
+        iphone.alarm();
+        iphone.internet();
 
-        Phone phone2=new Phone();
-        phone2.name="Pixel";
-        phone2.version="Pixel Pro 7";
-        phone2.color="Snow";
-        phone2.system="Android";
-        phone2.price=849;
-        phone2.weight="212 grams";
+        Phone googlePixel=new Phone();
+        googlePixel.name="Pixel";
+        googlePixel.version="Pixel Pro 7";
+        googlePixel.color="Snow";
+        googlePixel.system="Android";
+        googlePixel.price=849;
+        googlePixel.weight="212 grams";
 
-        phone2.camera();
-        phone2.alarm();
-        phone2.internet();
+        googlePixel.camera();
+        googlePixel.alarm();
+        googlePixel.internet();
 
-        Phone phone3=new Phone();
-        phone3.name="Samsung";
-        phone3.version="Galaxy Z Fold 4";
-        phone3.color="Burgundy";
-        phone3.system="Android";
-        phone3.price=1049;
-        phone3.weight="263 grams";
+        Phone galaxy=new Phone();
+        galaxy.name="Samsung";
+        galaxy.version="Galaxy Z Fold 4";
+        galaxy.color="Burgundy";
+        galaxy.system="Android";
+        galaxy.price=1049;
+        galaxy.weight="263 grams";
 
-        phone3.camera();
-        phone3.fold();
-        phone3.internet();
+        galaxy.camera();
+        galaxy.fold();
+        galaxy.internet();
 
 
 
