@@ -8,6 +8,8 @@ public class Task4 {
         // output=>sihT si ecnetnes i tnaw ot esrever
          */
 
+
+
         String str="I am hungry I want to eat but I have to do my homework";
         String[] str1=str.split(" ");
 
