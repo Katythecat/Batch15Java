@@ -10,10 +10,12 @@ public class Task2 {
 
         String str="jdsa;ifej1236236AVAHXVA!#$!^%*^$(";
 
-        String str1=str.replaceAll("[^A-Za-z0-9]","");
+        System.out.println(str.replaceAll("[^A-Za-z0-9]","").length());
+
+        /*String str1=str.replaceAll("[^A-Za-z0-9]","");
         int count=str1.length();
 
-        System.out.println("Number of Alphanumeric is "+count);
+        System.out.println("Number of Alphanumeric is "+count);*/
 
 
 
