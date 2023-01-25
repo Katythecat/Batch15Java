@@ -18,7 +18,7 @@ For Example String str=hello =>l
         if (!word.isEmpty()) {
             if (word.length() % 2 != 0 && word.length() >= 3) {
                 int middleChar= word.length() / 2;
-                System.out.println(word.charAt(middleChar));
+                System.out.println("The middle character is:"+word.charAt(middleChar));
             }else{
                 System.out.println("Invalid word");
             }

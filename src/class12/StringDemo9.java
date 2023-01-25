@@ -5,7 +5,13 @@ public class StringDemo9 {
 
         String str="Java is love";
         char c=str.charAt(0);
-        System.out.println(c);//I
+        System.out.println(c);
+
+        for (int i = 0; i < str.length(); i++) {
+            System.out.print(str.charAt(i));//Java is love
+        }
+
+        System.out.println();
 
         int count=0;
         for (int i = 0; i < str.length(); i++) {
