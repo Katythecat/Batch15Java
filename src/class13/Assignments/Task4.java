@@ -13,12 +13,16 @@ public class Task4 {
         String str="I am hungry I want to eat but I have to do my homework";
         String[] str1=str.split(" ");
 
-        String reverse="";
+
         for (String x:str1) {
             StringBuilder sb=new StringBuilder(x);
             sb.reverse();
-            reverse=reverse+sb.toString()+" ";
+            System.out.print(sb);
+            System.out.print(" ");
         }
-        System.out.println(reverse);
+
+        /*for(String word:str1){
+            System.out.print(new StringBuilder(word).reverse()+" ");
+        }*/
     }
 }
