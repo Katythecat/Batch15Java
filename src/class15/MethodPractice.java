@@ -1,6 +1,4 @@
-package day15;
-
-import javax.imageio.stream.ImageInputStream;
+package class15;
 
 public class MethodPractice {
     //create a method which returns true of false and take the int numbers as a parameter

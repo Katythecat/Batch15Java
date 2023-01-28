@@ -1,4 +1,4 @@
-package day15;
+package class15;
 
 public class BreakTask {
     /*

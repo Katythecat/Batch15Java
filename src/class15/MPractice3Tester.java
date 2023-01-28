@@ -1,4 +1,4 @@
-package day15;
+package class15;
 
 public class MPractice3Tester {
     public static void main(String[] args) {

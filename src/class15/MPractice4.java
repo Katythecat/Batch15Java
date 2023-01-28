@@ -1,4 +1,4 @@
-package day15;
+package class15;
 
 public class MPractice4 {
     int largest(int num1, int num2) {
