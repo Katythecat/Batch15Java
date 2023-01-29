@@ -1,8 +1,7 @@
 package class15.Assignments;
 public class Hello {
 
-    String sayhi(String country){
-        String Thailand, Peru, China, USA, France;
+    String sayHi(String country){
         switch (country) {
             case "Thailand":
                 return "Sawasdee";
@@ -22,7 +21,7 @@ public class Hello {
 
     public static void main(String[] args) {
         Hello hl=new Hello();
-        System.out.println(hl.sayhi("Thailand"));
+        System.out.println(hl.sayHi("Thailand"));
 
 
     }
