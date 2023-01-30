@@ -6,7 +6,7 @@ public class Task2 {
  Method should be available to all classes within your project and accessible by class name.
  */
 
-    public static String reverse(String str) {
+    static String reverse(String str) {
             return new StringBuilder(str).reverse().toString();
         }
 
