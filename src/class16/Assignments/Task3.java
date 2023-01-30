@@ -11,7 +11,7 @@ public class Task3 {
        String string=str.replaceAll("[^aeiou]","");
             System.out.println(string);
         }
-        
+
     public static void main(String[] args) {
         Task3 ts=new Task3();
         ts.vowels("I live in Seattle");

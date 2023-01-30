@@ -16,11 +16,11 @@ public class Task1 {
     }
 
     public static void main(String[] args) {
-        int[] num={23,17,5,13,7};
         Task1 ts=new Task1();
-        System.out.println(ts.sumArray(num));
+        /*int[] num={23,17,5,13,7};
+        System.out.println(ts.sumArray(num));*/
+        System.out.println(ts.sumArray(new int[]{23,17,5,13,7}));
 
-        Task2 ts1=new Task2();
 
     }
 }
