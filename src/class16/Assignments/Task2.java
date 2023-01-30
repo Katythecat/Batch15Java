@@ -12,7 +12,7 @@ public class Task2 {
 
 
     public static void main(String[] args) {
-        Task2.reverse("Seattle");
+        System.out.println(Task2.reverse("Seattle"));
 
 
 
