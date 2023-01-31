@@ -7,14 +7,12 @@ public class Task3 {
      inside the class only where it was declared and executed by calling it is name.
      */
 
-    private void vowels(String str) {
-       String string=str.replaceAll("[^aeiou]","");
-            System.out.println(string);
+    private static String getOnlyVowels(String input) {
+        return input.replaceAll("[^aeiouyAEIOUY]", "");
         }
 
     public static void main(String[] args) {
-        Task3 ts=new Task3();
-        ts.vowels("I live in Seattle");
+        System.out.println(getOnlyVowels("Java"));
 
     }
 }
