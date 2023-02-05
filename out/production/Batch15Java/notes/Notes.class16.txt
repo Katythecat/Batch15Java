@@ -1,4 +1,4 @@
-There are tree types of variables with respect to their scope
+There are three types of variables with respect to their scope
 local variables:
     if a variable is created inside a block of code like a method, loop, if condition etc. they are
     called local variables.
