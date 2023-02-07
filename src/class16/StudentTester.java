@@ -1,6 +1,8 @@
 package class16;
 
 
+
+
 public class StudentTester {
     public static void main(String[] args) {
         Student stu=new Student();
@@ -25,7 +27,7 @@ public class StudentTester {
         //stu2.schoolName="Syntax";
 
         System.out.println(stu2.schoolName);
-        System.out.println(Student.schoolName);
+        System.out.println(Student.schoolName);//the right way to access static keyword
 //we can access by name of the class(instead of obj)
         System.out.println();
     }

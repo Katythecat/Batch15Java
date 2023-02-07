@@ -1,0 +1,82 @@
+Day-12(PlayGround)
+-------
+
+final
+------
+Variables - we cannot change the value of variable ( constant)
+methods - we cannot override methods in the child class
+classes - we cannot extend the class in to another class
+
+Data Abstraction
+
+Interface
+-------------
+Abstraction is a process of hiding the implementation details
+and showing only functionality to the user.
+
+Interface
+-------------
+An interface is a blue print of class.
+Interface contains final & Static variables. by default variables are final and static
+
+Interface not allowed to implements methods only in a class can implement methods
+so we cannot use class extends or implement to interface
+but if you want to implement from interface to class you can do it
+
+Interface contains abstract methods.( also allowed default methods & Static methods from java8 onwards)
+    :in default methods and static methods can have body (implementation)
+An abstract method is a method contains definition but not body(Un-implemented method).
+Methods in interface are public by default.
+-->we can create default and static
+but we cannot create private and protected
+
+Interface supports the functionality of multiple inheritance.
+We can define interface with interface keyword.
+A class extends another class, an interface extends another interface but a class implements an interface.
+We can create Object reference for Interface but we cannot instantiate (create an obj of) interface.
+but the interface variable can hold the obj of child class
+
+***When ever you try to implement method from interface to child class don't forget to put
+access modifier in the method
+methods in interface are public by default
+but every thing in class default by default
+so from interface(public) if we implement to class(default)
+we need to put public in the method we implement from interface too***
+(don't reduce interface method from pubic to default)
+
+class C1
+{
+Variables
+final static int x=10;
+
+methods
+void m()    //default
+	{
+	//code
+	}
+}
+
+interface I1
+{
+Variables
+methods
+m();
+}
+
+
+void m() // regular method can have definition and body
+{
+//code
+}
+
+void m();   // abstract method cannot have body but have definition
+//An abstract method is a method contains definition but not body(Un-implemented method).
+// method in interface all public by default
+
+
+public
+default
+protected
+private
+
+

@@ -1,22 +1,22 @@
 package class19.Assignments;
 
 public class Teacher {
-    String teacherName;
-    String teacherId;
+    public String teacherName;
+    public String teacherId;
 
     public void homework() {
         System.out.println("Homeworks make students perfect!!!!");
     }
 
-    public void grade() {
+    protected void grade() {
         System.out.println("Grade doesn't matter");
     }
 
-    public void scholarship() {
+    void scholarship() {
         System.out.println("Good students from this class will get scholarship");
     }
 
-    public void ExtraPoint() {
+    private void extraPoint() {//can access just in the same class
         System.out.println("All students attend the class will get extra point");
     }
 }

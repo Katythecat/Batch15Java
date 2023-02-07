@@ -41,6 +41,41 @@ public:
     project can access these things.
 
 
+Katy summary:
+Static method can access only static variable
+
+When we create an object we create an instance of the class
+OR that's why we say instantiate of the class when create an object
+
+Variable--> local, instance, and static
+
+static variable belong to the class rather than an instance
+it's called class level variable
+
+How to call static variable?
+Bc it belong to the class, so we will call by the class name,
+but it can access by the object(reference) but it's not the right way
+
+Downside:
+If we change the value of the static in the instance class it will be effect all
+
+Wait!!!! What is an instance class again?????
+an instance class refer to an object created from a class
+an instance class is also known as an instance of a class or an object
+
+When to use static variable also known as a class variable
+When we want to define variable that is shared among all instances of a class.
+(common feature for all obj use static)
+
+Then when to use instance???
+When you want to define a variable that unique to each instance of the class
+
+
+
+
+
+
+
 
 
 

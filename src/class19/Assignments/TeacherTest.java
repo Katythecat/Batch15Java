@@ -7,7 +7,7 @@ public class TeacherTest {
         tc.teacherId="T121";
 
         System.out.println("This is principal "+tc.teacherName);
-        tc.ExtraPoint();
+        //tc.extraPoint();//this is private
 
         MathTeacher mt=new MathTeacher();
         mt.teacherName="Luna";

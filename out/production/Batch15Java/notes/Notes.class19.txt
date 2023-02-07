@@ -1,0 +1,37 @@
+Constructor - block of code similar to a method
+that is executed when we create an Object.
+
+Why do we need it? - constructor initializes the object
+
+How to create a constructor?
+1. Constructor name MUST be same as a class
+2. No return type
+
+Type of the constructors:
+non argument
+parametrized
+
+this keyword - is used to refer to the CURRENT object
+
+this. can be used with variables and methods
+
+    this. used to refer to CURRENT the instance variables
+    In situation when local variable have same name as instance -> we use this. to differentiate
+    and refer to the instance variable
+
+    this can be used to refer to the CURRENT instance methods as well
+
+this() -can use to call CURRENT class constructor
+
+Katy Writing:
+
+Can I use this() keyword and super() keyword in the same constructor
+
+It's a no no
+you cannot use both this() and super() in the same constructor in Java.
+A constructor can either invoke a constructor of the same class using this(),
+or invoke a constructor of the parent class using super(), but not both.
+
+This is because this() and super() must be the first statements in a constructor,
+and only one of them can be used. If both are used in the same constructor,
+it would result in a compile-time error.
