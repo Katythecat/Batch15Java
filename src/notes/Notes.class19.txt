@@ -35,3 +35,9 @@ or invoke a constructor of the parent class using super(), but not both.
 This is because this() and super() must be the first statements in a constructor,
 and only one of them can be used. If both are used in the same constructor,
 it would result in a compile-time error.
+
+Why constructor should not return type?
+Constructor use for initialize, place the value in the object if we write the return type
+then that constructor will be treated as method
+
+Constructor cannot use non access modifier--> static, final, abstract

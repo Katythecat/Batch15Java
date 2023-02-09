@@ -1,8 +1,15 @@
-This keyword refers to the current class/object/instance
+this keyword refers to the current class/object/instance
 
 this can be used to access current class instance variables and methods
 
 this() -used with constructor to call current class constructor
+
+super keyword refer to parent class
+
+super  used to access parent variable and method
+
+super() used to call parent constructor
+
 
 Inheritance
 What it is? - process when subclass acquires properties and behavior from the super class
@@ -48,8 +55,8 @@ access modifiers  nonAccess modifier  returnType name() {}
 
 super keyword - used to refer to the immediate parent class
 
-can be used with variables and methods
-can be used with constructors
+super can be used with variables and methods
+super() can be used with constructors
 
 Flower flower1 = new Flower();
 
@@ -68,3 +75,28 @@ ALL CLASSES IN JAVA HAVE a PARENT CLASS
 WHO IS THE PARENT? PARENT OF ALL CLASS IS OBJECT CLASS
 Object is a root of all classes, every class has Object as a superclass
 we don't see it but it set as a default
+
+Katy Q&A:
+Q-Why multiple inheritance cannot support in class concept
+A-When we create 2 parents class even we don't define anything inside but
+they still have default methods from the root class which is called Object class
+and when we try to extend parent class to single class it will get duplicate
+the default method that's why we use interface concept to solve this problem
+
+constructor cannot inherit by the child class but can use help from super keyword
+
+Constructors are not considered members of a class in Java,
+and they are not inherited by a child class in the same way that methods or fields are.
+Constructors are used to create an instance of a class, and they are not
+part of the class's interface.
+
+When a subclass is derived from a superclass,
+the subclass does not inherit the constructors of the superclass.
+Instead, the subclass can define its own constructor
+that calls the superclass constructor using the super keyword.
+This allows the subclass to reuse the code in the superclass constructor
+and extend its behavior as needed.
+
+In this way, the subclass constructor is related to the superclass constructor,
+but it is not considered to be an inheritance relationship.
+The subclass constructor is unique to the subclass and is not part of the superclass.

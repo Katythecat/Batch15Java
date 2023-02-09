@@ -4,4 +4,11 @@ Access Modifiers:
     keyword.
     1) private 2)default 3) protected 4) public.
 
+Katy:
+Constructor will not be inherited from one class to another class (Because every class constructor
+is created for initializing its own data members. But it possible with the help with super() keyword
+
+Constructor definitions should not be static. Bc constructor will be called each and every time,
+whenever an object is creating.
+
 
