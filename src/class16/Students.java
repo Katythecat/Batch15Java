@@ -13,6 +13,8 @@ public class Students {
         numberOfStudents++;
 
     }
+
+
     void show(){
         System.out.println("Student name "+stuName+" and ID "+stuId);
     }

@@ -2,14 +2,11 @@ package class22.Assignments;
 
 public class CreditCardTest {
     public static void main(String[] args) {
-        CreditCard creditCard=new CreditCard();
-        creditCard.sumInterest(1000);
+        CreditCard creditCard=new CreditCard(100,10);
+        creditCard.sumInterest();
+        CreditCard creditCard1=new CreditCard(100,15);
+        creditCard1.sumInterest();
 
-        Visa visa=new Visa();
-        visa.sumInterest(2500);
-
-        AX ax=new AX();
-        ax.sumInterest(1800);
 
 
     }

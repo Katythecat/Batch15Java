@@ -4,7 +4,7 @@ public class BreakKeywordDemo2 {
     public static void main(String[] args) {
 
 
-        boolean summer = true;
+        /*  boolean summer = true;
        int temp = 75;
         while (summer) {
             if (temp <= 100) {
@@ -14,7 +14,7 @@ public class BreakKeywordDemo2 {
                 summer = false;
             }
             temp += 5;
-        }
+        }*/
 
         int tem;
         for(tem=75; tem<=100; tem+=5) {

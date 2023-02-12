@@ -17,4 +17,16 @@ Logical AND(&&):
     it can also combine two or more conditions. it only returns true if all the
     conditions are true.
 
+Switch case
+int day=3;
+
+switch(day){
+case 1 : "Monday";
+
+rules
+1.The value of the case must be the same data type as the variable in the switch
+
+Limitations of switch statement
+1. cannot use with operators--> relational and logical
+2. cannot use with boolean float double long as an arguments in switch()
 

@@ -31,3 +31,9 @@ When you run a program the java virtual machine(JVM) looks for a main method wit
 signature ( public static void main(String[] args) ) to determine which method to run as the entry point of the program.
 
 but we normally don't do it bc it may lead to confusion or unexpected behavior
+
+
+Keep in mind 3 things you need to know
+1. What is it?
+2. Why we need it?
+3. How to implement it?

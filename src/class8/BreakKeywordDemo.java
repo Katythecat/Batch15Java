@@ -6,7 +6,7 @@ public class BreakKeywordDemo {
             if (i == 6) {
                 break;
             }
-                System.out.println(i);
+                System.out.println(i);// 0 1 2 3 4 5
 
 
             }

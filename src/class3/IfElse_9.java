@@ -4,7 +4,7 @@ public class IfElse_9 {
     public static void main(String[] args) {
         boolean isTrue = false;
         if(isTrue!=false){
-            System.out.println("1");
+            System.out.println("1");//false so no execute
 }
 
 

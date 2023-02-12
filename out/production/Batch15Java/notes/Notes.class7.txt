@@ -1,3 +1,43 @@
+What is loop?
+Loop is a concept which allow to run certain block of code multiple times
+
+Why it is important?
+1. We use loop for repetitive execution
+2. avoid code redundancy
+3. Time-consuming process is reduced
+
+Loop
+1. while loop
+
+while(condition)
+{
+loop body;
+increment/decrement;
+}
+
+2. do...while loop
+When to use do...while loop-when we need to repeat the statement block at least one time
+
+do
+{
+ statement;
+ increment/decrement;
+}while(condition);
+
+3. for loop
+When to use for loop - if number of iteration is fixed
+for(initialization;condition;increment/decrement){
+         statement
+         }
+
+         or
+
+for(start value;endValue;increment/decrement){
+        statement
+        }
+
+
+
 While Loop:
     They help us repeat code.
 Why should we use while loops:
@@ -9,3 +49,6 @@ Syntax WhileLoop:
     code that we want to repeat
     }
 
+Operator
+1. pre increment (++a) -> increment a by 1 then use new value of a to implement
+2. post increment (a++) -> use a current of a to implement and then increment a by 1

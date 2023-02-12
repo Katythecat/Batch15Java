@@ -7,7 +7,7 @@ public class Variables {
         we are calling it box1 if we need information that we are storing inside this box
         we can simply say to the computer give us the contents of box1
         int=>what type of data we want to store
-        box1=> us the name of the box
+        box1=> is the name of the box
         = sign will take whatever we write after it and will store it inside the box1
         10=>is what we are storing inside the box
          */

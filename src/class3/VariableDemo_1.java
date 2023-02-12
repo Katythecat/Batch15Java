@@ -13,7 +13,7 @@ public class VariableDemo_1 {
         String name,city,country;//we can create multiple empty boxes in a single line of code
         char gender,letter;
         name="Leo";//storing a value in the variable
-        //System.out.println(city); I have not stored anything inside the city variable that's why java is confused
+        //System.out.println(city); //I have not stored anything inside the city variable that's why java is confused
         //what to print
         System.out.println(name);
 
