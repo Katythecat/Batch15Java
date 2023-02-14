@@ -1,6 +1,9 @@
 package class23.Assignments;
 
 public class Computer {
+    int RAM;
+    int storage;
+    String OS;
      void listenToMusic(){
         System.out.println("Computer can listen to music");
     }
