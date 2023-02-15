@@ -1,0 +1,23 @@
+
+
+
+
+
+
+
+
+
+Can I do a constructor in Interface and abstract
+
+In Java, you can define constructors in classes that implement interfaces,
+but not in interfaces themselves. However, abstract classes can have constructors.
+
+Interfaces are a special type of class that only define abstract methods and constants,
+but do not provide any implementation. Since interfaces do not define any implementation,
+it does not make sense to have a constructor in an interface.
+
+On the other hand, abstract classes can have constructors,
+and they are often used to initialize the state of the class
+or to provide a common implementation for subclasses.
+When a subclass is created, the constructor of the abstract class is called first,
+followed by the constructor of the subclass.

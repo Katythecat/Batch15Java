@@ -8,32 +8,35 @@ public class Task2 {
         and while retrieving those values print capital for each country.
          (use 2 different loops).
          */
+        Scanner input=new Scanner(System.in);
+        System.out.println("Enter number of countries:");
+        int numberOfCountries=input.nextInt();
+        String[] countries=new String[numberOfCountries];
 
+        System.out.println("Enter countries");
+        for (int i = 0; i < countries.length; i++) {
+            countries[i] = input.next();
+        }
 
-        Scanner scanner = new Scanner(System.in);
-        String[] countries = new String[5];
+        for(String country:countries){
+            String capital;
+            switch (country){
+                case "Thailand": capital="Bkk";break;
+                case "Peru": capital="Lima";break;
+                case "China": capital="Beijing";break;
+                case "Japan": capital="Tokyo";break;
+                case "France": capital="Paris";break;
+                default:capital="Unknown";
+            }
+            System.out.println("Capital city of "+country+" is "+capital);
 
-       for (int i = 0; i < countries.length; i++) {
-
-            System.out.println("Please enter countries");
-            countries[i] = scanner.next();
-            System.out.println("Please enter its capital city");
-            String capitals = scanner.next();
-            System.out.println("The capital city of " + countries[i] + " is " + capitals);
         }
 
 
 
-       /*int i=0;
-       while(i<countries.length){
-           System.out.println("Please enter countries");
-           countries[i] = scanner.next();
-           System.out.println("Please enter its capital city");
-           String capitals = scanner.next();
-           System.out.println("The capital city of " + countries[i] + " is " + capitals);
-           i++;
-       }*/
         }
     }
+
+
 
 
