@@ -1,5 +1,5 @@
 package my.project.second;
-public class Test {
+public class WebDriverTester {
     public static void main(String[] args) {
         WebDriver[] webDrivers={new ChromeDriver(),new FirefoxDriver(),new SafariDriver()};
         for(WebDriver w:webDrivers){
