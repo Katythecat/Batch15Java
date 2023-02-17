@@ -31,6 +31,6 @@ Syntax:
     we also need to write the abstract keyword with the class as well.
 
 
-
+polymorphism same method behave differently
 
 

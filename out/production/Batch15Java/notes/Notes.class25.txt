@@ -1,13 +1,39 @@
+Abstraction:
+     Allows us to simplify code by hiding implementation details and only showing the functionality to the user.
+     In java, we can achieve this in two ways 1) Abstract classes 2) interface.
+     abstract class can have constructor for the subclass can use it
 
+Interface:
+     It is very similar to an abstract class. We can have private methods static methods default methods abstract method
+     we can be static in an interface. we can't have instance fields in an interface and because
+     we don't have instance fields we also can't have a constructor in an interface.
 
+Interface cannot have instance filed and constructor other than that they have everything same the class java
 
+When we should use interface:
+    when objects are closely related to each other and there is a "Is a " relationship between classes then
+     we should go with abstract classes if we want to use abstraction. if Objects are not related to each other than we should
+     implement abstraction with the help of interfaces.
 
+Flexibility: Interfaces are more flexible than abstract classes because a class can implement multiple interfaces,
+ but can only extend a single abstract class.
+
+interface WashAble{
+void wash(); --> by default method in interface are implicitly public abstract
+    public static int number=12; --> in interface implicitly add public static in data members
+    public final String name="Pizza"; --> in interface implicitly add public final in data members
+
+}
 
 
 
 
 
 Can I do a constructor in Interface and abstract
+
+An interface is a collection of abstract methods and constants.
+Its main purpose is to define a set of behaviors that implementing classes should follow.
+Since interfaces do not have state or instance variables, it does not make sense for them to have constructors.
 
 In Java, you can define constructors in classes that implement interfaces,
 but not in interfaces themselves. However, abstract classes can have constructors.

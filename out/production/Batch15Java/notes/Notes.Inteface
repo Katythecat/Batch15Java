@@ -23,8 +23,10 @@ Interface not allowed to implements methods only in a class can implement method
 so we cannot use class extends or implement to interface
 but if you want to implement from interface to class you can do it
 
-Interface contains abstract methods.( also allowed default methods & Static methods from java8 onwards)
+Interface contains abstract methods.( also allowed default methods & Static methods & private method from java9 onwards)
     :in default methods and static methods can have body (implementation)
+All the data members of interface are implicitly public static final
+
 An abstract method is a method contains definition but not body(Un-implemented method).
 Methods in interface are public by default.
 -->we can create default and static
@@ -43,6 +45,46 @@ but every thing in class default by default
 so from interface(public) if we implement to class(default)
 we need to put public in the method we implement from interface too***
 (don't reduce interface method from pubic to default)
+
+When we have private method in interface we use with default method
+Example:
+
+public interface ExampleInterface {
+
+  default void doSomething() {
+    int a = 10;
+    int b = 20;
+    int sum = add(a, b); // calling private method
+    System.out.println("Sum: " + sum);
+  }
+
+  private int add(int a, int b) {
+    return a + b;
+  }
+}
+
+and then if we want to implement this interface we will override default method to another class
+and call the private method from interface not from private method itself
+Example:
+
+public class ExampleClass implements ExampleInterface {
+
+  @Override
+  public void doSomething() {
+    int a = 5;
+    int b = 15;
+    int sum = add(a, b); // calling private method
+    System.out.println("Sum: " + sum);
+  }
+
+  public static void main(String[] args) {
+    ExampleClass example = new ExampleClass();
+    example.doSomething();
+  }
+}
+
+
+
 
 class C1
 {

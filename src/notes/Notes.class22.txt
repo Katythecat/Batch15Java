@@ -12,7 +12,7 @@ Method Overriding:
      specific implementation of a method.
 Why we should override a method?
     If a child class does not like the implementation of the parent class it has
-    the flexibility that iut can override that method.
+    the flexibility that it can override that method.
 Syntax of override?
     There must be a parent child relationship between two classes.
 
@@ -20,8 +20,7 @@ Rules:
     1) To override a method there must be parent child relationship between two classes.
     2) If something can't be inherited we can't override it. For example private methods and
     constructors.
-    3) Visibility of a method can be in
-    creased for example if something has default access
+    3) Visibility of a method can be increased for example if something has default access
     or protected access we can make it public, but we can't make it private.
 
 Katy Talks:
