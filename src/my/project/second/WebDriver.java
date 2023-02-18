@@ -11,7 +11,7 @@ interface TakesScreenShot {
     void getScreenShot();
 }
 
-interface RemoteWebDriver extends WebDriver{
+interface RemoteWebDriver extends WebDriver, TakesScreenShot{
     void navigate();
 }
 class ChromeDriver implements RemoteWebDriver {
@@ -30,6 +30,11 @@ class ChromeDriver implements RemoteWebDriver {
     @Override
     public void navigate() {
         System.out.println("Navigate chrome driver");
+    }
+
+    @Override
+    public void getScreenShot() {
+        System.out.println("Get screen shot Chrome browser");
     }
 }
 
@@ -50,6 +55,11 @@ class FirefoxDriver implements RemoteWebDriver{
     public void navigate() {
         System.out.println("Navigate Firefox driver");
     }
+
+    @Override
+    public void getScreenShot() {
+        System.out.println("Get screen shot Firefox browser");
+    }
 }
 
 class SafariDriver implements RemoteWebDriver{
@@ -68,5 +78,10 @@ class SafariDriver implements RemoteWebDriver{
     @Override
     public void navigate() {
         System.out.println("Navigate Safari driver");
+    }
+
+    @Override
+    public void getScreenShot() {
+        System.out.println("Get screen shot Safari browser");
     }
 }

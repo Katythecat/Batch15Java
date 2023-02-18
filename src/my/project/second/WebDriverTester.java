@@ -6,8 +6,15 @@ public class WebDriverTester {
             w.open();
             System.out.println(w.getTitle());
             w.close();
+
+
+        TakesScreenShot[] takesScreenShots={new ChromeDriver(),new FirefoxDriver(),new SafariDriver()};
+        for(TakesScreenShot t:takesScreenShots){
+            t.getScreenShot();
+        }
+
             //navigate() is not available
-            //TakesScreenShort Interface is not extends ????
+            //TakesScreenShort() is not available
 
         }
     }
