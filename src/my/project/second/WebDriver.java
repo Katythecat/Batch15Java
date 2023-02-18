@@ -4,9 +4,7 @@ public interface WebDriver {
     void open();
     void close();
     String getTitle();
-
 }
-
 interface TakesScreenShot {
     void getScreenShot();
 }
