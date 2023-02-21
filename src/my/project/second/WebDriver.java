@@ -83,3 +83,4 @@ class SafariDriver implements RemoteWebDriver{
         System.out.println("Get screen shot Safari browser");
     }
 }
+

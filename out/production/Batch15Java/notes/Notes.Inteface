@@ -121,4 +121,6 @@ default
 protected
 private
 
-
+Hash
+When ever we talk about hash just remember insertion order is not preserved
+and index rules is not followed

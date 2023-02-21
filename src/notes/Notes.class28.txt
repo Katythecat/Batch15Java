@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+
+
+
+
+Generic we can store multiple but one at a time
+
+
+From Savo
+Visually simplified.
+
+Boxing:
+   It is the process of converting primitive data types to its corresponding wrapper type or object type.
+Integer i = new Integer (10)    => Boxing
+int one = I;                                   => Unboxing
+
+AutoBoxing:
+   It says that we just have to assign a wrapper type to a primitive type of variable and conversion will happen automatically.
+Character gf = ‘a’;     => Autoboxing
+char ch = gf;               => Auto-unboxing
