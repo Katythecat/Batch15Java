@@ -29,8 +29,8 @@ All the data members of interface are implicitly public static final
 
 An abstract method is a method contains definition but not body(Un-implemented method).
 Methods in interface are public by default.
--->we can create default and static
-but we cannot create private and protected
+-->we can create default and static and private
+but we cannot have protected method
 
 Interface supports the functionality of multiple inheritance.
 We can define interface with interface keyword.

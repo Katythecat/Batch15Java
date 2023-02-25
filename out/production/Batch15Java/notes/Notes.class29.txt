@@ -1,0 +1,11 @@
+Iterator:
+Sets like HashSet,LinkedHashSet and TreeSet don't allow duplicate values. There are three main types of Sets
+HashSet:
+    Upside:Fast
+    Downside: Does not retain the insertion order
+LinkedHashset:
+    Upside: Retains the insertion order.
+    Downside: it's slower than HashSet.
+TreeSet:
+    Upside:it keeps the data sorted
+    Downside: it's the slowest.

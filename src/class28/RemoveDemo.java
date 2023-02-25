@@ -1,11 +1,14 @@
 package class28;
 
+
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 public class RemoveDemo {
     public static void main(String[] args) {
-        ArrayList<String> words=new ArrayList<>();
+        List<String> words=new ArrayList<>();
         words.add("Cat");
         words.add("Lava");
 
@@ -31,6 +34,7 @@ public class RemoveDemo {
       while(iterator.hasNext()){
             String s=iterator.next();
             if(s.endsWith("a")){
+
                 iterator.remove();
             }
         }
@@ -39,6 +43,9 @@ public class RemoveDemo {
         //words.removeIf(s -> s.endsWith("a"));
 
         System.out.println(words);
+}
+
+
 
     }
-}
+

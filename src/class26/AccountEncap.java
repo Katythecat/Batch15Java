@@ -1,5 +1,5 @@
 package class26;
-public class Account {
+public class AccountEncap {
     private double balance;
     private String accountNumber;
     private String type;
@@ -31,7 +31,7 @@ public class Account {
         return accountTitle;
     }
 
-    public Account(double balance, String accountNumber, String type, String accountTitle) {
+    public AccountEncap(double balance, String accountNumber, String type, String accountTitle) {
         this.balance = balance;
         this.accountNumber = accountNumber;
         this.type = type;
@@ -42,10 +42,11 @@ public class Account {
 class AccountTester{
 
     public static void main(String[] args) {
-        Account account=new Account(-1000,"hlf","jga;","ngoer;");
-        System.out.println(account.getAccountTitle());
-        account.setBalance(-64564664);
-        account.setAccountNumber("15476");
+        AccountEncap accountEncap =new AccountEncap(-1000,"hlf","jga;","ngoer;");
+        System.out.println(accountEncap.getAccountTitle());
+
+        accountEncap.setBalance(-64564664);
+        accountEncap.setAccountNumber("15476");
     }
 }
 
