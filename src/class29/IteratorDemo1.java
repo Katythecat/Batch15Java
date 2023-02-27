@@ -15,10 +15,11 @@ public class IteratorDemo1 {
         numbers.add(10.3);
 
         //numbers.removeIf(number -> number > 11);
+        //getting the obj of iterator
         Iterator<Double>iterator= numbers.iterator();
         //System.out.println(iterator.hasNext());
 
-
+        //hasNext() keeps on returning true as long as there are elements left to be iterated
         while(iterator.hasNext()){
             double number=iterator.next();
                 if(number>11){

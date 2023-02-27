@@ -10,9 +10,10 @@ public class SetDemo3 {
         TreeSet<String> fruit=new TreeSet<>();
         fruit.add("Mango");
         fruit.add("Kiwi");
+        fruit.add("apple");
         fruit.add("Orange");
         fruit.add("Mango");
-        fruit.add("apple");
+        fruit.add("Apple");
 
         System.out.println(fruit);
     }

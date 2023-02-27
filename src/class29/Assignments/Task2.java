@@ -22,7 +22,7 @@ public class Task2 {
 
         System.out.println(students.keySet());
 
-        for(Object v:students.keySet()){
+        for(Integer v:students.keySet()){
             System.out.println(students.get(v));
         }
     }

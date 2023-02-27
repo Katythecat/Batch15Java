@@ -1,0 +1,57 @@
+Collections
+Collection - To present group of elements/objects/data into single entity
+Collection is interface which is available in java.util package
+Collection is a root interface
+
+Arrays
+1.Size of array is fixed
+2.Multiple data value not allowed(Heterogeneous)
+
+ArrayList and LinkedList-are classes implemented List interface
+1.Heterogeneous is allowed(multiple data type)
+2.Insertion order - preserved(index) follow by index concept
+3.Duplicate elements - allowed
+4.Multiple nulls - allowed
+
+HashSet , LinkedHashSet and TreeSet are classed implemented Set interface
+
+HashSet --> all hash are mess insertion not allow
+1.Heterogeneous is allowed(multiple data type)
+2.Insertion order - Not preserved (index not supported) display the random order
+3.Duplicate elements - NOT allowed
+4.Multiple nulls NOT allowed / only single null is allowed
+
+-get specific value from hashset .get() is not supported - not possible bc index not support
+-remove the value .remove() pass only value bc no index concept
+-insert data between the element is not possible we can add only at the last index due to insertion order not preserved
+
+
+LinkedHashSet
+1.Heterogeneous is allowed(multiple data type)
+2.Allow insertion order
+3.Duplicate order NOT allowed
+4.Multiple nulls NOT allowed / only single null is allowed
+
+TreeSet
+1.Heterogeneous is allowed(multiple data type)
+2.Insertion order NOT allowed but sort the elements in the ascending order 0,1,2,3..
+    and for String by alphabetical AZ az Apple Banana apple
+3.Duplicate order NOT allowed
+4.Multiple nulls NOT allowed / only single null is allowed
+
+
+HashMap is a class implemented Map interface
+-Data can be stored in the form of key, value pairs.
+2.Insertion order not preserved ( index not allowed)
+3.Key is unique but we can have duplicate values
+4.one null key and multiple null values/ Duplicate keys are not allowed if we put the duplicate key when execute
+    it will return the latest value
+
+LinkedHashMap
+2.Insertion order is preserved and if we insert new value the original value are retained
+3.
+
+TreeMap
+2.sorting order by keys in ascending order
+3.contain only unique elements
+4.cannot have null key but can have multiple null values

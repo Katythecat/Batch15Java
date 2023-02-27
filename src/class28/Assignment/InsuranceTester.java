@@ -6,14 +6,9 @@ public class InsuranceTester {
     public static void main(String[] args) {
 
         ArrayList<Insurance> insurance=new ArrayList<>();
-        Car car=new Car("Progressive","Toyota");
-        insurance.add(car);
-
-        Pet pet=new Pet("Progressive","Cat");
-        insurance.add(pet);
-
-        Health health=new Health("Progressive");
-        insurance.add(health);
+        insurance.add(new Car("Progressive","Toyota"));
+        insurance.add(new Pet("Progressive","Cat"));
+        insurance.add(new Health("Progressive"));
 
         for(int i=0;i<insurance.size();i++){
            Insurance ins=insurance.get(i);
