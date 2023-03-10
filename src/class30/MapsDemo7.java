@@ -22,6 +22,10 @@ public class MapsDemo7 {
         for(Map.Entry<Integer,String> entry:entrySet){
             System.out.println(entry.getKey()+" "+ entry.getValue());
         }
+        //var entry=studentsMap.entrySet();
+        for(var en:studentsMap.entrySet()){
+            System.out.println(en.getKey()+" "+ en.getValue());
+        }
         entrySet.removeIf(x->x.getKey()>2&&x.getValue().contains("i"));
         System.out.println(entrySet);
 

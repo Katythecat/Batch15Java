@@ -23,7 +23,8 @@ Print all values from a country map using for each loop and iterator.
 
         var values=countries.values();
         for(var value:values){
-            System.out.println(value);
+            String v=value;
+            System.out.println(v.toUpperCase());
         }
 
         var iterator=countries.values().iterator();

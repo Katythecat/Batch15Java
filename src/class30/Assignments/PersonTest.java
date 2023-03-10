@@ -17,6 +17,7 @@ public class PersonTest {
         for(var entry:entrySet){
             System.out.println("User ID "+entry.getKey());
             entry.getValue().print();
+
         }
     }
 }

@@ -21,6 +21,8 @@ public class MapDemo1 {
         System.out.println(students);
         students.replace(2,"Asli");
         System.out.println(students);
+        students.clear();
+        System.out.println(students);
 
 
         }
