@@ -30,6 +30,5 @@ public class ExcelReader {
             excelData.add(rowMap);
         }
         return excelData;
-
     }
 }

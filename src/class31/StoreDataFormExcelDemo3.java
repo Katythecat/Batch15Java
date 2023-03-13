@@ -2,8 +2,10 @@ package class31;
 
 import java.util.*;
 
-public class ExcelReaderDemo3 {
+public class StoreDataFormExcelDemo3 {
     public static void main(String[] args) {
+        //want to store excel data in java program
+        //practice a lot as a tester will use it everyday
         LinkedHashMap<String,String> row1=new LinkedHashMap<>();
         row1.put("Name","Leo");
         row1.put("age","8");

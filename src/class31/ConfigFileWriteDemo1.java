@@ -21,6 +21,8 @@ public class ConfigFileWriteDemo1 {
         we use the setProperty method to store data inside a properties files
          */
         properties.setProperty("Name","Leo");
+        properties.setProperty("age","8");
+        properties.setProperty("city","Miami");
         /*
         method .store to write the data to the disk
          */

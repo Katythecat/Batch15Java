@@ -26,6 +26,7 @@ public class ExcelFileDemo6 {
             int noOfCells=row.getPhysicalNumberOfCells();
             for (int j = 0; j <noOfCells ; j++) {
                 Cell cell=row.getCell(j);
+                //System.out.println(row.getCell(j));
                 System.out.print(cell+" \t ");
             }
             System.out.println();

@@ -17,10 +17,11 @@ public class ExcelFileDemo5 {
        A class that we can use to read and writh the data easily from excel files
         */
         XSSFWorkbook xssfWorkbook=new XSSFWorkbook(fileInputStream);
-        Sheet sheet2=xssfWorkbook.getSheet("Sheet2");
+        Sheet sheet2=xssfWorkbook.getSheet("Sheet2");//to get sheet don't forget .getsheet
 
         int numOfRows=sheet2.getPhysicalNumberOfRows();
-        System.out.println(numOfRows);
+       // System.out.println(numOfRows);//7
+
         for (int i = 0; i < numOfRows ; i++) {
             Row row=sheet2.getRow(i);
             System.out.println(row.getCell(0)+" "+row.getCell(1));

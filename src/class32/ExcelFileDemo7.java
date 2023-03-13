@@ -32,7 +32,7 @@ public class ExcelFileDemo7 {
         for (int i = 1; i < noOfRows; i++) {
             Row row=  sheet2.getRow(i);
             LinkedHashMap<String,String> rowMap=new LinkedHashMap<>();
-
+            //linkedhashmap to preserve the order
             rowMap.put("UserName",row.getCell(0).toString());
             rowMap.put("Password",row.getCell(1).toString());
             excelData.add(rowMap);

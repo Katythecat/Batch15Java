@@ -35,7 +35,7 @@ public class ExceptionDemo2 {
             }
 
         }
-        //ExcelReader.read();
+        ExcelReader.read();
         
     }
 }

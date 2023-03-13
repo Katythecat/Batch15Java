@@ -1,0 +1,31 @@
+Data Driven testing
+--------------
+Excel
+
+Apache poi - API used for automating ms documents- excel.
+
+reading data from excel
+writing data into excel
+
+
+https://mvnrepository.com/artifact/org.apache.poi/poi/5.2.3
+https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml/5.2.3
+
+
+Excel File-->Workbook-->Sheets---->Rows--->Cells
+
+These 2 classes come from Java itself
+FileInputStream-->open Excel to read the data  notepad, pdf, ect
+FileOutputStream-->open Excel to write the data
+
+Classes from Apache poi
+XSSFWorkbook(class)
+Sheet
+Row
+    sheet.getPhysicalNumberOfRows();
+    -returns the actual number of rows that exist in the sheet.
+Cell
+
+
+workbook.close();// clear memory should close
+file.close();
